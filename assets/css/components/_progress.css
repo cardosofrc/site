@@ -1,0 +1,37 @@
+.habilidades{
+    text-align: center;
+}
+
+.progress, .progress-bar, .progress-container{
+    display: flex;
+}
+
+.progress-container{
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 30px;
+}
+
+.progress-container h5{
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.progress{
+    height: 1rem;
+    overflow: hidden;
+    font-size: 14px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.progress-bar{
+    flex-direction: column;
+    justify-content: center;
+    color: var(--color-white);
+    text-align: center;
+    white-space: nowrap;
+    background-color: var(--primary);
+}

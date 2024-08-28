@@ -1,0 +1,12 @@
+:root{
+    --primary: #8257e5;
+    --color-dark: #000;
+    --color-white: #fff;
+    --overlay: #8257e578;
+
+    --font-thin: 100;
+    --font-light: 300;
+    --font-medium: 500;
+    --font-bold: 700;
+    --font-black: 900;
+}

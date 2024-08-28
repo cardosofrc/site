@@ -1,0 +1,49 @@
+h1, p, a{
+    color: black;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    padding: 30px 40px;
+    box-shadow: 0 0 8px #ccc;
+}
+
+.menu-container{
+    display: flex;
+    max-width: 1135px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    color: blue;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+li{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 200mss ease-in;
+}
+
+nav a:hover{
+    color: var(--primary);
+    border-bottom: var(--primary) solid 1px;
+}
