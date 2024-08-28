@@ -1,2 +1,2 @@
-@import "./components/_index.css";
-@import "./base/_index.css";
+@import url(./base/_index.css);;
+@import url(./components/_index.css);
